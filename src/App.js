@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+//Create a react app from scratch.
+//It should display a h1 heading.
+//It should display an unordered list (bullet points).
+//It should contain 3 list elements.
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default function App() {
+	return (
+		<main>
+			<h1>Exequiel's favorite foods</h1>
+			<ul>
+				<li>Lasagna</li>
+				<li>Lima-lima</li>
+				<li>Adobo</li>
+			</ul>
+		</main>
+	);
 }
-
-export default App;
